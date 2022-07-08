@@ -1,0 +1,14 @@
+---
+- name: Install HEPHY CMS Desktop
+  hosts: localhost
+  become: yes
+
+  tasks:
+    - name: 
+    - name: Install various packages
+      ansible.builtin.dnf:
+        name: "{{ item }}"
+        state: present
+      loop:
+        - gnome-tweaks
+        - thunderbird 

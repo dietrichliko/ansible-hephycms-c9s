@@ -1,0 +1,3 @@
+---
+roles:
+  - https://github.com/cvmfs-contrib/ansible-cvmfs-client
